@@ -20,7 +20,7 @@ Total amount you can rob = 2 + 9 + 1 = 12.
 
 '''
 1. 定義dp陣列的含義(找最大值)
-2. 建立轉移方程 => dp[i] = max(dp[i-2] + nums[i], dp[i-1]), 分兩種情況:
+2. 建立轉移方程 => dp[i] = max(dp[i-2] + nums[i], dp[i-1]), 分兩種情況: 偷與不偷
 3. 初始化初始值 => dp[0] = nums[0], dp[1] = max(nums[0],nums[1])
 '''
 
