@@ -20,7 +20,8 @@ def subsetsWithDup(nums):
             tmp = [t + [nums[i]] for t in tmp]
         else:
             tmp = [t + [nums[i]] for t in res]
-        res += tmp
+            res += tmp
     return res
+
 
 print(subsetsWithDup([1, 2, 2]))
